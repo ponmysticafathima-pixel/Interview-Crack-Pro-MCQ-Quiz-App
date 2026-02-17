@@ -1,5 +1,3 @@
-# Interview-Crack-Pro-MCQ-Quiz-App
-A professional Interview Preparation Quiz App built using HTML, CSS, and JavaScript with MCQ system, timer, progress bar, and scoring.
 # Interview Crack Pro – Quiz App 🎯
 
 Interview Crack Pro is a professional frontend quiz application designed to help students prepare for technical, HR, and aptitude interviews.
