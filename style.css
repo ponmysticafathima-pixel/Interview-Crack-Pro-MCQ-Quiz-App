@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    width: 650px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+select {
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.progress {
+    width: 100%;
+    background: #444;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+#progressBar {
+    height: 10px;
+    width: 0%;
+    background: #00ffcc;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background: #00c9a7;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.optionBtn {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.optionBtn:hover {
+    background: #ddd;
+}
+
+.correct {
+    background: #4CAF50 !important;
+    color: white;
+}
+
+.wrong {
+    background: #f44336 !important;
+    color: white;
+}

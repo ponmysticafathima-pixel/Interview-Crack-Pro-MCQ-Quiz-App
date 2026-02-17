@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interview Crack Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Interview Crack Pro</h1>
+
+    <select id="category">
+        <option value="python">Python</option>
+        <option value="hr">HR</option>
+        <option value="aptitude">Aptitude</option>
+    </select>
+
+    <div class="progress">
+        <div id="progressBar"></div>
+    </div>
+
+    <div id="quizBox">
+        <h2 id="question">Click Start to Begin</h2>
+        <div id="options"></div>
+    </div>
+
+    <p id="timer">Time: 30</p>
+    <p id="score">Score: 0</p>
+
+    <button id="startBtn" onclick="startQuiz()">Start Quiz</button>
+    <button id="restartBtn" onclick="restartQuiz()" style="display:none;">Restart</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
